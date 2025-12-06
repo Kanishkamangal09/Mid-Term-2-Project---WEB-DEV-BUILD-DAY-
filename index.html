@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Speech Pad</title>
+    
+</head>
+<body>
+
+    <div class="container">
+        <h2>Speech Note Pad</h2>
+        
+        <div id="status" class="status">System Idle</div>
+
+        <textarea id="textBox" placeholder="Click Start to begin speech recognition..."></textarea>
+
+        <div class="btn-group">
+            <button id="startBtn">Start Listening</button>
+            <button id="stopBtn" disabled>Stop</button>
+        </div>
+
+        <button id="saveBtn">Save Note</button>
+
+        <div class="notes-section">
+            <div class="list-header">History</div>
+            <ul id="savedList"></ul>
+        </div>
+    </div>
+
+</body>
+</html>
